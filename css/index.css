@@ -1,0 +1,27 @@
+div {}
+
+body {
+	font-family: "华文行楷";
+}
+
+.loading {
+	width: 60%;
+	height: 140px;
+	background: #FFFFFF;
+	position: absolute;
+	left: 20%;
+	top: 100px;
+	border-radius: 5px;
+	display: none;
+	z-index: 999;
+	-moz-box-shadow: 2px 2px 10px #909090;
+	-webkit-box-shadow: 2px 2px 10px #909090;
+	box-shadow: 2px 2px 10px #909090;
+	text-align: center;
+}
+
+.max-count {
+	font-size: 12px;
+}
+
+.loading>h3 {}
